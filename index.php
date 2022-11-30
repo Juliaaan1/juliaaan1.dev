@@ -26,6 +26,14 @@
 </head>
 <body>
 <div class="container">
+    <div class="row menu">
+        <div class="col-auto item active">
+            <p>Обо мне</p>
+        </div>
+        <div class="col-auto item">
+            <a href="https://blog.juliaaan1.dev/">Блог</a>
+        </div>
+    </div>
     <div class="row terminal">
         <div class="col-5">
             <img src="/images/art.jpg" class="img-fluid" alt="Hand drawn portrait">
@@ -70,6 +78,33 @@
         font-family: "Fira Mono", sans-serif;
         font-size: 14px;
         color: white;
+    }
+
+    .menu {
+        padding: 10px 30px;
+        border-bottom: 1px solid white;
+    }
+
+    .menu > .item {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .menu > .item:last-child {
+        margin-right: 0;
+    }
+
+    .menu > .item.active > p {
+        color: #8d8b8b;
+    }
+
+    .menu > .item > a {
+        text-decoration: none;
+    }
+
+    .menu > .item > a:hover {
+        color: white;
+        text-decoration: underline;
     }
 
     .terminal {
