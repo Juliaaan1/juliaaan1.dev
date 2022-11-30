@@ -31,7 +31,7 @@
             <p>Обо мне</p>
         </div>
         <div class="col-auto item">
-            <a href="https://blog.juliaaan1.dev/">Блог</a>
+            <a href="https://blog.juliaaan1.dev/" target="_blank">Блог</a>
         </div>
     </div>
     <div class="row terminal">
